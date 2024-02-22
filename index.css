@@ -1,0 +1,687 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.card {
+  background: #fff;
+  border: 0.05rem solid rgb(128, 128, 128);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/*NAVBAR*/
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  padding-top: 3px;
+}
+
+.navbar .nav-right,
+.navbar .nav-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-list-right a {
+  color: rgb(128, 128, 128);
+}
+
+.hamburger-btn {
+  display: none;
+}
+
+.btn.nav-btn {
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+/*SEARCH BAR*/
+
+.search .container {
+  background: whitesmoke;
+  padding: 40px 30px;
+  height: 40vh;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+.search-bar a {
+  text-decoration: underline;
+  display: block;
+  margin-top: 10px;
+  text-underline-offset: 0.2em;
+}
+
+.search .welcome-p1 {
+  max-width: 30%;
+  font-size: smaller;
+}
+
+.search-bar input[type="search"] {
+  padding: 15px;
+  margin-right: 3px;
+}
+
+.search-bar input::placeholder {
+  font-size: 1rem;
+}
+
+.search-bar input[type="submit"] {
+  padding: 15px;
+  color: white;
+  background: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*CAMPGROUNDS*/
+
+.campgrounds .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.campgrounds .btn {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.campgrounds .card-img,
+.campgrounds .card-text {
+  margin: 10px 0;
+}
+
+.campgrounds .card-img img {
+  border-radius: 5px;
+}
+
+footer {
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+/*/ADD NEW CAMP*/
+/* 
+.add-new-camp .form-container {
+  display: flex;
+  flex-direction: column;
+} */
+
+.add-new-camp .form-container form {
+  width: 40%;
+  margin: auto;
+}
+
+.add-new-camp .form-container input,
+.add-new-camp .form-container textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+  border: 0;
+  background: whitesmoke;
+}
+
+.add-new-camp .form-container textarea {
+  resize: none;
+}
+
+.add-new-camp .form-container input[type="submit"] {
+  color: #fff;
+  background: #000;
+  border-radius: 5px;
+  padding: 15px 0;
+}
+
+.add-new-camp .form-container input::placeholder,
+.add-new-camp .form-container textarea::placeholder {
+  padding: 10px 20px;
+}
+
+.add-new-camp .form-container .form-header {
+  margin-bottom: 15px;
+}
+
+/*ADD NEW COMMENT*/
+
+.add-new-comment .form-container form {
+  width: 50%;
+  margin: auto;
+}
+
+.add-new-comment .form-container input,
+.add-new-comment .form-container textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+  border: 0;
+  background: whitesmoke;
+}
+
+.add-new-comment .form-container textarea {
+  resize: none;
+}
+
+.add-new-comment .form-container input[type="submit"] {
+  color: #fff;
+  background: #000;
+  border-radius: 5px;
+  padding: 15px 0;
+}
+
+.add-new-comment .form-container input::placeholder,
+.add-new-comment .form-container textarea::placeholder {
+  padding: 10px 20px;
+}
+
+.add-new-comment .form-container .form-header {
+  margin-bottom: 25px;
+}
+
+/*SIGN IN*/
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+main .left .container {
+  max-width: 80%;
+}
+
+main .left .sign-in form {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.sign-in .form-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px 10px;
+  border: 0;
+  background: whitesmoke;
+}
+
+.sign-in .form-container input[type="submit"] {
+  color: #fff;
+  background: #000;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+.sign-in .form-container input::placeholder {
+  padding: 10px 20px;
+}
+
+main .right {
+  background: rgb(255, 228, 192);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sign-in .form-header {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.right .review {
+  width: 50%;
+  margin: auto;
+}
+
+.right .review h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.right .customer {
+  display: flex;
+  gap: 0 10px;
+}
+
+.sign-in .create-account {
+  width: 60%;
+  margin: auto;
+}
+
+.sign-in .create-account a {
+  text-decoration: underline;
+  color: rgb(0, 153, 255);
+  font-weight: bold;
+}
+
+/* LANDING PAGE */
+
+main .landing-left .container {
+  max-width: 80%;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+}
+
+/* img.desktop{
+
+display: block;
+height: 100%;
+
+  
+}
+img.tablet{
+
+display:none;
+  
+} */
+
+.landing-page .landing-header {
+  width: 70%;
+  font-size: 3rem;
+}
+.landing-page .landing-p1 {
+  width: 60%;
+  margin: 10px 0;
+}
+
+.landing-page-title {
+  margin: 10px 0;
+}
+
+.landing-page-title ul {
+  margin: 20px 0;
+}
+
+.landing-page-title ul li {
+  margin: 10px 0;
+}
+
+.landing-page-title ul li img {
+  vertical-align: middle;
+
+  margin-right: 10px;
+}
+
+.landing-btn {
+  padding: 15px 15px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.partners {
+  margin: 30px 0;
+  white-space: nowrap;
+}
+
+.logo-right {
+  display: none;
+}
+
+.landing-right {
+  background: url("./Assets/Hero\ Image.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/*INDIVIDUAL CAMPS*/
+
+.one-camp .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.map img,
+.main-content .image img {
+  width: 100%;
+}
+
+.down {
+  margin: 30px 0;
+}
+
+.main-content .title-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.one-camp p {
+  font-size: 0.8rem;
+}
+
+.down p {
+  border-bottom: 1px solid rgb(128, 128, 128);
+
+  padding-bottom: 30px;
+}
+
+.down .button-camp {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.camp-btn {
+  color: #fff;
+  background: #000;
+  border-radius: 5px;
+}
+
+.top h6 {
+  margin: 10px 0;
+  font-weight: lighter;
+}
+
+.top p {
+  width: 98%;
+}
+.down h6 {
+  color: rgb(128, 128, 128);
+}
+
+.top .title-top h5 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.down .title-top h5 {
+  font-weight: bolder;
+}
+
+.title-top span {
+  font-size: 1.1rem;
+}
+
+.mobile-menu {
+  position: fixed;
+  background-color: #fff;
+  top: 85px;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  color: #000;
+  padding: 30px;
+  display: none;
+  transition: all 0.3s;
+}
+
+.hidden {
+  transform: translateX(100%);
+}
+
+.mobile-menu div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 960px) {
+  .campgrounds .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search .container {
+    height: 60vh;
+  }
+
+  .search .welcome-title {
+    max-width: 100%;
+  }
+
+  .navbar .nav-left,
+  .navbar .nav-list-left {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: block;
+  }
+
+  .search .welcome-p1 {
+    max-width: 50%;
+  }
+
+  .add-new-camp .form-container form {
+    width: 70%;
+    margin: auto 20px;
+  }
+
+  .add-new-comment .form-container form {
+    width: 70%;
+    margin: auto 20px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  main .navbar .nav-left,
+  main .navbar .nav-list-left {
+    display: block;
+  }
+
+  .right .review {
+    width: 80%;
+    margin: auto;
+  }
+
+  main .left .sign-in form {
+    width: 80%;
+    margin: auto 20px;
+  }
+
+  .sign-in .form-header {
+    width: 100%;
+  }
+
+  .sign-in .create-account {
+    width: 90%;
+  }
+
+  .landing-right {
+    background: url("./Assets/Hero\ Image\ \(Tablet\ and\ Mobile\).jpg")
+      no-repeat;
+    background-size: cover;
+    height: 50vh;
+    order: -1;
+  }
+
+  main .landing-left .container {
+    max-width: 90%;
+  }
+
+  .landing-left .navbar .logo {
+    display: none;
+  }
+
+  .logo-right {
+    display: block;
+    margin-bottom: 30px;
+    order: -2;
+  }
+
+  .logo-right .container {
+    max-width: 90%;
+    padding: 20px 0;
+  }
+
+  .landing-page-title {
+    margin-top: 0;
+  }
+
+  .landing-page .landing-header {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .landing-page .landing-p1 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .one-camp .container {
+    grid-template-columns: 1fr;
+  }
+
+  .map img {
+    height: 50vh;
+  }
+
+  .main-content {
+    order: -1;
+  }
+
+  .down .button-camp {
+    text-align: left;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .campgrounds .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .campgrounds .card-img img {
+    width: 100%;
+  }
+
+  .search-bar input[type="search"],
+  .search-bar input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .search .welcome-title {
+    width: 50%;
+  }
+  .search .welcome-p1 {
+    width: 45%;
+  }
+
+  .add-new-camp form {
+    margin: auto;
+  }
+
+  .add-new-camp .form-container form {
+    width: 80%;
+    margin: auto;
+  }
+
+  .add-new-camp .form-container .form-header {
+    width: 50%;
+  }
+
+  .add-new-comment form {
+    margin: auto;
+  }
+
+  .add-new-comment .form-container form {
+    width: 70%;
+    margin: auto;
+  }
+
+  .add-new-comment .form-container input::placeholder,
+  .add-new-comment .form-container textarea::placeholder {
+    max-width: 70%;
+  }
+
+  main .left .container {
+    max-width: 100%;
+  }
+
+  main .left .sign-in form {
+    width: 100%;
+    margin: auto;
+  }
+
+  .sign-in .form-header {
+    width: 60%;
+  }
+
+  .sign-in .create-account {
+    width: 100%;
+  }
+
+  .landing-page .landing-header {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+  .landing-page .landing-p1 {
+    width: 95%;
+    margin: 10px 0;
+  }
+
+  .partners img {
+    min-width: 10px;
+  }
+}

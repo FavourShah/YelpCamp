@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   overflow-x: hidden;
-  width:100%;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -309,28 +309,31 @@ main .right {
 }
 
 /* LANDING PAGE */
-
-main .landing-left .container {
-  max-width: 80%;
+.landing-navbar {
+  padding: 20px 0 20px 50px;
+  margin-left: 30px;
+}
+.landing-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
 }
 
-.landing-page {
-  display: flex;
-  justify-content: center;
+.main-right img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
-/* img.desktop{
-
-display: block;
-height: 100%;
-
-  
+.hidden-img {
+  display: none;
 }
-img.tablet{
 
-display:none;
-  
-} */
+.main-left {
+  padding: 20px 0 20px 50px;
+  margin-left: 30px;
+}
 
 .landing-page .landing-header {
   width: 70%;
@@ -372,7 +375,7 @@ display:none;
   white-space: nowrap;
 }
 
-.logo-right {
+/* .logo-right {
   display: none;
 }
 
@@ -380,7 +383,7 @@ display:none;
   background: url("./Assets/Hero\ Image.jpg") no-repeat;
   background-size: cover;
   height: 100%;
-}
+} */
 
 /*INDIVIDUAL CAMPS*/
 
@@ -545,31 +548,31 @@ display:none;
     width: 90%;
   }
 
-  .landing-right {
-    background: url("./Assets/Hero\ Image\ \(Tablet\ and\ Mobile\).jpg")
-      no-repeat;
-    background-size: cover;
-    height: 50vh;
+  .landing-main {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-navbar {
+    padding: 20px 25px 20px 25px;
+  }
+
+  .main-right {
     order: -1;
   }
-
-  main .landing-left .container {
-    max-width: 90%;
+  .main-right img {
+    position: relative;
+    width: 100%;
   }
 
-  .landing-left .navbar .logo {
+  .main-left {
+    padding: 20px 25px 20px 25px;
+  }
+
+  .active-img {
     display: none;
   }
-
-  .logo-right {
+  .hidden-img {
     display: block;
-    margin-bottom: 30px;
-    order: -2;
-  }
-
-  .logo-right .container {
-    max-width: 90%;
-    padding: 20px 0;
   }
 
   .landing-page-title {

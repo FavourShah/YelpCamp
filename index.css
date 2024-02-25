@@ -552,7 +552,10 @@ main .right {
     order: -1;
   }
   .main-right img {
-  
+   position: relative;
+    width: 100%;
+    right:0;
+    height:auto;
   }
 
   .main-left {
@@ -564,10 +567,7 @@ main .right {
   }
   .hidden-img {
     display: block;
-      position: relative;
-    width: 100%;
-    right:0;
-    height:auto;
+     
   }
 
   .landing-page-title {

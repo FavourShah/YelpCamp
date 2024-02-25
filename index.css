@@ -562,6 +562,7 @@ main .right {
   .main-right img {
     position: relative;
     width: 100%;
+    right:0;
   }
 
   .main-left {

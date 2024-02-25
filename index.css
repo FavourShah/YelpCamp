@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   overflow-x: hidden;
-  width: 100%;
+
 }
 a {
   text-decoration: none;
@@ -375,15 +375,7 @@ main .right {
   white-space: nowrap;
 }
 
-/* .logo-right {
-  display: none;
-}
 
-.landing-right {
-  background: url("./Assets/Hero\ Image.jpg") no-repeat;
-  background-size: cover;
-  height: 100%;
-} */
 
 /*INDIVIDUAL CAMPS*/
 
@@ -560,10 +552,7 @@ main .right {
     order: -1;
   }
   .main-right img {
-    position: relative;
-    width: 100%;
-    right:0;
-    height:auto;
+  
   }
 
   .main-left {
@@ -575,6 +564,10 @@ main .right {
   }
   .hidden-img {
     display: block;
+      position: relative;
+    width: 100%;
+    right:0;
+    height:auto;
   }
 
   .landing-page-title {

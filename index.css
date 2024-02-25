@@ -563,6 +563,7 @@ main .right {
     position: relative;
     width: 100%;
     right:0;
+    height:auto;
   }
 
   .main-left {

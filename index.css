@@ -681,6 +681,13 @@ main .right {
     margin: 10px 0;
   }
 
+    .main-left {
+    padding: 20px 0 20px 5px;
+  }
+
+   .landing-navbar {
+    padding: 20px 0 20px 5px;
+  }
 /*   .partners img {
     min-width: 10px;
   } */

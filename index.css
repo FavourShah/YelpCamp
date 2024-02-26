@@ -62,6 +62,7 @@ section {
 
 .navbar .logo {
   padding-top: 0.1875rem;
+  cursor:pointer;
 }
 
 .navbar .nav-right,

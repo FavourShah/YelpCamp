@@ -554,9 +554,9 @@ main .right {
   }
   .main-right img {
    position: relative;
-    width: 100%;
+    width: 100vw;
     right:0;
-    height:auto;
+    height:65vw;
   }
 
   .main-left {
@@ -682,11 +682,11 @@ main .right {
   }
 
     .main-left {
-    padding: 20px 0 20px 5px;
+    padding: 20px 0 20px 0;
   }
 
    .landing-navbar {
-    padding: 20px 0 20px 5px;
+    padding: 20px 0 20px 0;
   }
 /*   .partners img {
     min-width: 10px;

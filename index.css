@@ -22,7 +22,7 @@ ul {
 
 img {
   max-width: 100%;
-  object-fit:cover;
+ 
 }
 
 .container {
@@ -681,7 +681,7 @@ main .right {
     margin: 10px 0;
   }
 
-  .partners img {
+/*   .partners img {
     min-width: 10px;
-  }
+  } */
 }

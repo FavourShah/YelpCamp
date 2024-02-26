@@ -35,7 +35,7 @@ img {
   background: #fff;
   border: 0.05rem solid rgb(128, 128, 128);
   border-radius: 5px;
-  padding: 1.25px;
+  padding: 1.25rem;
 }
 
 section {
@@ -395,7 +395,7 @@ main .right {
 .main-content .title-top {
   display: flex;
   justify-content: space-between;
-  margin: 0.625rem 0;
+  margin: 1.25rem 0;
 }
 
 .one-camp p {

@@ -154,12 +154,8 @@ footer {
   padding: 20px 0;
 }
 
-/*/ADD NEW CAMP*/
-/* 
-.add-new-camp .form-container {
-  display: flex;
-  flex-direction: column;
-} */
+/*ADD NEW CAMP*/
+
 
 .add-new-camp .form-container form {
   width: 40%;
@@ -555,7 +551,7 @@ main .right {
   .main-right img {
    position: relative;
     width: 100vw;
-    right:0;
+ 
     height:65vw;
   }
 

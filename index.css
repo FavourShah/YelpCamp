@@ -688,7 +688,7 @@ main .right {
    .landing-navbar {
     padding: 20px 0 20px 0;
   }
-/*   .partners img {
-    min-width: 10px;
-  } */
+  .partners{
+    width:50%;
+  }
 }

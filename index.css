@@ -618,10 +618,10 @@ main .right {
   }
 
   .search .welcome-title {
-    width: 50%;
+    max-width: 50%;
   }
   .search .welcome-p1 {
-    width: 100%;
+    max-width: 100%;
   }
 
   .add-new-camp form {

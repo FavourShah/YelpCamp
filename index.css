@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  font-size: 16px;
+
   line-height: 1.5;
   overflow-x: hidden;
 
@@ -28,30 +28,30 @@ img {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0.93rem;
 }
 
 .card {
   background: #fff;
   border: 0.05rem solid rgb(128, 128, 128);
   border-radius: 5px;
-  padding: 20px;
+  padding: 1.25px;
 }
 
 section {
-  padding: 30px 0;
+  padding: 1.875rem 0;
 }
 
 .btn {
   display: inline-block;
-  padding: 10px 10px;
+  padding: 0.62rem;
   border: 1px solid rgb(0, 0, 0);
 }
 
 /*NAVBAR*/
 
 .navbar {
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .navbar .container {
@@ -61,7 +61,7 @@ section {
 }
 
 .navbar .logo {
-  padding-top: 3px;
+  padding-top: 0.1875rem;
 }
 
 .navbar .nav-right,
@@ -93,12 +93,12 @@ section {
 }
 
 .search-bar {
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 .search-bar a {
   text-decoration: underline;
   display: block;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   text-underline-offset: 0.2em;
 }
 
@@ -108,8 +108,8 @@ section {
 }
 
 .search-bar input[type="search"] {
-  padding: 15px;
-  margin-right: 3px;
+  padding: 0.9375rem;
+  margin-right: 0.1875rem;
 }
 
 .search-bar input::placeholder {
@@ -117,7 +117,7 @@ section {
 }
 
 .search-bar input[type="submit"] {
-  padding: 15px;
+  padding: 0.9375rem;
   color: white;
   background: black;
   border-radius: 5px;
@@ -135,14 +135,14 @@ section {
 .campgrounds .btn {
   display: block;
   text-align: center;
-  margin: 10px 0;
+  margin:0.625rem 0;
   font-weight: bold;
   border-radius: 5px;
 }
 
 .campgrounds .card-img,
 .campgrounds .card-text {
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .campgrounds .card-img img {
@@ -150,8 +150,8 @@ section {
 }
 
 footer {
-  margin: 20px 0;
-  padding: 20px 0;
+  margin: 1.25rem 0;
+  padding: 1.25rem 0;
 }
 
 /*ADD NEW CAMP*/
@@ -166,8 +166,8 @@ footer {
 .add-new-camp .form-container textarea {
   display: block;
   width: 100%;
-  margin: 10px 0;
-  padding: 10px 0;
+  margin: 0.625rem 0;
+  padding: 0.625rem 0;
   border: 0;
   background: whitesmoke;
 }
@@ -180,16 +180,16 @@ footer {
   color: #fff;
   background: #000;
   border-radius: 5px;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
 }
 
 .add-new-camp .form-container input::placeholder,
 .add-new-camp .form-container textarea::placeholder {
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 }
 
 .add-new-camp .form-container .form-header {
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 /*ADD NEW COMMENT*/
@@ -203,8 +203,8 @@ footer {
 .add-new-comment .form-container textarea {
   display: block;
   width: 100%;
-  margin: 10px 0;
-  padding: 10px 0;
+  margin:0.625rem 0;
+  padding: 0.625rem 0;
   border: 0;
   background: whitesmoke;
 }
@@ -217,16 +217,16 @@ footer {
   color: #fff;
   background: #000;
   border-radius: 5px;
-  padding: 15px 0;
+  padding: 0.9275rem 0;
 }
 
 .add-new-comment .form-container input::placeholder,
 .add-new-comment .form-container textarea::placeholder {
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 }
 
 .add-new-comment .form-container .form-header {
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 /*SIGN IN*/
@@ -244,14 +244,14 @@ main .left .container {
 main .left .sign-in form {
   width: 60%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 0.625rem;
 }
 
 .sign-in .form-container input {
   display: block;
   width: 100%;
-  margin: 10px 0;
-  padding: 20px 10px;
+  margin: 0.625rem 0;
+  padding: 1.25rem 0.625rem;
   border: 0;
   background: whitesmoke;
 }
@@ -260,7 +260,7 @@ main .left .sign-in form {
   color: #fff;
   background: #000;
   border-radius: 5px;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .sign-in .form-container input::placeholder {
@@ -276,7 +276,7 @@ main .right {
 
 .sign-in .form-header {
   width: 80%;
-  margin-bottom: 20px;
+  margin-bottom: 0.625rem;
 }
 
 .right .review {
@@ -307,8 +307,8 @@ main .right {
 
 /* LANDING PAGE */
 .landing-navbar {
-  padding: 20px 0 20px 50px;
-  margin-left: 30px;
+  padding: 1.25rem 0 1.25rem 3.125rem;
+  margin-left: 1.875rem;
 }
 .landing-main {
   display: grid;
@@ -328,7 +328,7 @@ main .right {
 }
 
 .main-left {
-  padding: 20px 0 20px 50px;
+  padding: 1.25rem 0 1.25rem 3.125rem;
   margin-left: 30px;
 }
 
@@ -364,11 +364,11 @@ main .right {
   background: #000;
   color: #fff;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top:0.625rem;
 }
 
 .partners {
-  margin: 30px 0;
+  margin: 1.875rem 0;
   white-space: nowrap;
 }
 
@@ -389,13 +389,13 @@ main .right {
 }
 
 .down {
-  margin: 30px 0;
+  margin: 1.875rem 0;
 }
 
 .main-content .title-top {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 0.625rem 0;
 }
 
 .one-camp p {
@@ -405,12 +405,12 @@ main .right {
 .down p {
   border-bottom: 1px solid rgb(128, 128, 128);
 
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 
 .down .button-camp {
   text-align: right;
-  margin: 20px 0;
+  margin: 6.25rem 0;
 }
 
 .camp-btn {
@@ -420,7 +420,7 @@ main .right {
 }
 
 .top h6 {
-  margin: 10px 0;
+  margin: 0.625rem 0;
   font-weight: lighter;
 }
 
@@ -465,7 +465,7 @@ main .right {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .no-scroll {
@@ -502,12 +502,12 @@ main .right {
 
   .add-new-camp .form-container form {
     width: 70%;
-    margin: auto 20px;
+    margin: auto 1.25rem;
   }
 
   .add-new-comment .form-container form {
     width: 70%;
-    margin: auto 20px;
+    margin: auto 1.25rem;
   }
 
   main {
@@ -526,7 +526,7 @@ main .right {
 
   main .left .sign-in form {
     width: 80%;
-    margin: auto 20px;
+    margin: auto 1.25rem;
   }
 
   .sign-in .form-header {
@@ -542,7 +542,7 @@ main .right {
   }
 
   .landing-navbar {
-    padding: 20px 5px 20px 5px;
+     padding: 1.25rem 0.3125rem 1.25rem 0.3125rem;
   }
 
   .main-right {
@@ -556,7 +556,7 @@ main .right {
   }
 
   .main-left {
-    padding: 20px 5px 20px 5px;
+    padding: 1.25rem 0.3125rem 1.25rem 0.3125rem;
   }
 
   .active-img {
@@ -577,7 +577,7 @@ main .right {
   }
   .landing-page .landing-p1 {
     width: 100%;
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 
   .one-camp .container {
@@ -614,14 +614,14 @@ main .right {
   .search-bar input[type="submit"] {
     display: block;
     width: 100%;
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 
   .search .welcome-title {
     width: 50%;
   }
   .search .welcome-p1 {
-    width: 45%;
+    width: 100%;
   }
 
   .add-new-camp form {
@@ -674,15 +674,15 @@ main .right {
   }
   .landing-page .landing-p1 {
     width: 95%;
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 
     .main-left {
-    padding: 20px 0 20px 0;
+    padding: 1.25rem 0  1.25rem 0;
   }
 
    .landing-navbar {
-    padding: 20px 0 20px 0;
+    padding: 1.25rem 0 1.25rem 0;
   }
  .partners img {
     width: 30%;
